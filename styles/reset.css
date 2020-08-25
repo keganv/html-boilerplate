@@ -43,6 +43,11 @@ ol[class] {
     list-style: none;
 }
 
+/* Remove pointer events from anchors with title attributes */
+a {
+  pointer-events: none;
+}
+
 /* A elements that don't have a class get default styles */
 a:not([class]) {
     text-decoration-skip-ink: auto;
